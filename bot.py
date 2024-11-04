@@ -3,7 +3,7 @@ from telebot import types
 from numbers1 import main2
 import openpyxl
 
-bot = telebot.TeleBot("6592509447:AAFqDiWsisoWJkcvrx-ZFDJxh7-L0eHFHn8", parse_mode='HTML')
+bot = telebot.TeleBot("", parse_mode='HTML')
 
 @bot.message_handler(commands=['start'])
 def start(message):
